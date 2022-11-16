@@ -1,0 +1,1 @@
+-intstyle "pa" -incremental -L "work" -L "secureip" -o "test01_tb.exe" --prj "C:/VHDL_ensu/kadai4_kadai/kadai1.sim/sim_1/behav/test01_tb.prj" -top "work.test01_tb" 

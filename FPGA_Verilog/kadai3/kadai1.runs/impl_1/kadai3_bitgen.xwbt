@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=C:\VHDL_ensu\kadai3\kadai1.runs\impl_1\kadai3_routed.ncd
+OUTFILE=C:\VHDL_ensu\kadai3\kadai1.runs\impl_1\kadai3.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\VHDL_ensu\kadai3\kadai1.runs\impl_1
+LICENSE=WebPack
+USER_INFO=211790050_0_0_715

@@ -1,0 +1,5 @@
+NET "LD[1]" LOC = V16;
+NET "LD[0]" LOC = U16;
+NET "SW[2]" LOC = V9;
+NET "SW[1]" LOC = T9;
+NET "SW[0]" LOC = T10;

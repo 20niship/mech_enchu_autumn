@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Oct 25 16:25:30 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SHZ" LOCATE = SITE "U15" LEVEL 1;
+COMP "A" LOCATE = SITE "T9" LEVEL 1;
+COMP "B" LOCATE = SITE "T10" LEVEL 1;
+COMP "S" LOCATE = SITE "U16" LEVEL 1;
+COMP "CIN" LOCATE = SITE "V9" LEVEL 1;
+COMP "CLK" LOCATE = SITE "V10" LEVEL 1;
+COMP "COUT" LOCATE = SITE "V16" LEVEL 1;
+COMP "CHZ" LOCATE = SITE "V15" LEVEL 1;
+SCHEMATIC END;
+

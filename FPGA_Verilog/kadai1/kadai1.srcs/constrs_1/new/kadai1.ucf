@@ -1,0 +1,5 @@
+NET "LD[2]" LOC = U15;
+NET "LD[1]" LOC = V16;
+NET "LD[0]" LOC = U16;
+NET "BTNL" LOC = C4;
+NET "BTNR" LOC = D9;

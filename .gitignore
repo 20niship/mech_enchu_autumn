@@ -1,2 +1,3 @@
 *.o
 x64-Release/
+*.log

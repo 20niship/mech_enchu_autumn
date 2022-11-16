@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="8">
+	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc6slx16csg324-3" LaunchPart="xc6slx16csg324-3" ConstrsSet="constrs_1" Description="PlanAhead Defaults (XST defaults with hierarchy)" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1666680759">
+		<File Type="XST-NGC" Name="kadai7.ngc"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+		<File Type="XST-SRP" Name="kadai7.srp"/>
+		<File Type="PA-XST" Name="kadai7.xst"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+		<File Type="PA-XSTPRJ" Name="kadai7.prj"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+	</Run>
+	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xc6slx16csg324-3" LaunchPart="xc6slx16csg324-3" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" State="current" Dir="$PRUNDIR/impl_1" LaunchTime="1666680770">
+		<File Type="PA-EDIF" Name="kadai7.edf"/>
+		<File Type="MAP-PSR" Name="kadai7.psr"/>
+		<File Type="PA-UCF" Name="kadai7.ucf"/>
+		<File Type="PAR-NCD" Name="kadai7_routed.ncd"/>
+		<File Type="PAR-PAD" Name="kadai7_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="kadai7_routed.par"/>
+		<File Type="PAR-UNR" Name="kadai7_routed.unroutes"/>
+		<File Type="BG-BIT" Name="kadai7.bit"/>
+		<File Type="BG-DRC" Name="kadai7.drc"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BGN" Name="kadai7.bgn"/>
+		<File Type="TRCE-TWR" Name="kadai7.twr"/>
+		<File Type="TRCE-TWX" Name="kadai7.twx"/>
+		<File Type="XDL-XDL" Name="kadai7_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+		<File Type="NGDB-NGD" Name="kadai7.ngd"/>
+		<File Type="NGDB-BLD" Name="kadai7.bld"/>
+		<File Type="MAP-NCD" Name="kadai7.ncd"/>
+		<File Type="MAP-PCF" Name="kadai7.pcf"/>
+		<File Type="MAP-MRP" Name="kadai7.mrp"/>
+		<File Type="MAP-MAP" Name="kadai7.map"/>
+	</Run>
+</Runs>
+

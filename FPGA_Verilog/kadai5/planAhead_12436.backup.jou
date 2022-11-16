@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Oct 24 15:16:38 2022
+# Process ID: 8644
+# Log file: C:/VHDL_ensu/kadai5/planAhead.log
+# Journal file: C:/VHDL_ensu/kadai5\planAhead.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\VHDL_ensu\kadai5\kadai1.ppr}
+close [ open C:/VHDL_ensu/kadai5/kadai1.srcs/sources_1/new/kadai5.vhd w ]
+add_files C:/VHDL_ensu/kadai5/kadai1.srcs/sources_1/new/kadai5.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+open_rtl_design -name rtl_1
+startgroup
+set_property package_pin M8 [get_ports {SW[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {SW[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {SW[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {SW[0]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {SEG_SEL[3]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {SEG_SEL[2]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {SEG_SEL[1]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {SEG_SEL[0]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {SEL_DATA[7]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {SEL_DATA[6]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {SEL_DATA[5]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {SEL_DATA[4]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {SEL_DATA[3]}]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports {SEL_DATA[2]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {SEL_DATA[1]}]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports {SEL_DATA[0]}]
+endgroup
+file mkdir C:/VHDL_ensu/kadai5/kadai1.srcs/constrs_1/new
+close [ open C:/VHDL_ensu/kadai5/kadai1.srcs/constrs_1/new/kadai5.ucf w ]
+add_files -fileset constrs_1 C:/VHDL_ensu/kadai5/kadai1.srcs/constrs_1/new/kadai5.ucf
+set_property target_constrs_file C:/VHDL_ensu/kadai5/kadai1.srcs/constrs_1/new/kadai5.ucf [current_fileset -constrset]
+save_constraints -force
+reset_run impl_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1

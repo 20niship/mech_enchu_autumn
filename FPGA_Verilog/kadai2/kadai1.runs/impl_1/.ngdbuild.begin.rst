@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="ngdbuild" Owner="mech-user" Host="KI00113" Pid="1776">
+    </Process>
+</ProcessHandle>

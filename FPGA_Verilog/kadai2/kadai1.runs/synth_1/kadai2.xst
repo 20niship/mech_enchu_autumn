@@ -1,0 +1,9 @@
+set -loop_iteration_limit 1000
+run
+-ifn kadai2.prj
+-top kadai2
+-p xc6slx16csg324-3
+-ofn kadai2.ngc
+-opt_mode speed
+-opt_level 1
+-netlist_hierarchy rebuilt
